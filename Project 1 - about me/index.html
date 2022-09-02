@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!--
+Project:  Project 1 - About Me
+Name: Ethan Balling
+Submitted: 9/1/2022
+ 
+I declare that the following source code was written by me, or provided
+by the instructor for this project. I understand that copying source
+code from any other source, providing source code to another student, 
+or leaving my code on a public web site constitutes cheating.
+I acknowledge that  If I am found in violation of this policy this may result
+in a zero grade, a permanent record on file and possibly immediate failure of the class.
+ 
+Reflection (1-2 paragraphs):  This was a good opportunity for me to finally build a full
+project using HTML. I have dabbled and know a lot of the syntax but never implement my 
+previous knowledge and also learn something new. I am still learning, especially some 
+of the CSS concepts so I struggled a bit with using that in this first project.
+-->
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>About Ethan</title>
+        <link rel="stylesheet" href="style.css">
+        <style></style>
+    </head>
+
+    <body>
+        
+        <header>
+            <h1>Ethan Balling</h1>
+            <img src="ethan_header.jpg" alt="Profile Picture" width="500" id="profile_pic">
+        </header>
+        <hr>
+        
+        <section id="personal_info">
+            <h2>Personal Info:</h2>
+            <ul>
+                <li><b>Major:</b> Computer Science</li>
+                <li><b>High School:</b> Davis High, Kaysville, Utah. 2012</li>
+                <li><b>Current year at UVU:</b> Junior</li>
+                <li><b>Favorite ice cream:</b> Cookie dough</li>
+            </ul>
+        </section>
+        
+        <section id="favorite_books">
+            <h2>My five favorite books</h2>
+            <ol>
+                <li><i>Project Hail Mary</i>, <a href="https://andyweirauthor.com/" target="_blank">Andy Weir</a></li>
+                <li><i>Lord of the Rings</i>, <a href="https://www.tolkiensociety.org/author/" target="_blank">J. R. R. Tolkien</a></li>
+                <li><i>Dune</i>, <a href="https://dunenovels.com/frank-herbert/" target="_blank">Frank Herbert</a></li>
+                <li><i>Ready Player One</i>, <a href="https://www.ernestcline.com/" target="_blank">Ernest Cline</a></li>
+                <li><i>The Count of Monte Cristo</i>, <a href="https://www.biography.com/writer/alexandre-dumas" target="_blank">Alexandre Dumas</a></li>
+            </ol>
+        </section>
+        
+        <section id="poem">
+            <h2>Haiku - A Corgi Dad</h2>
+            <p>What I look forward to when comming home each day:</p>
+            <div class="center">
+                <code>I study then work</code><br>
+                <code>Come home to two wiggle butts</code><br>
+                <code>A corgi's greeting</code><br>
+            </div>
+        </section>
+        
+        <section id="interests">
+            <h2>My personal interests</h2>
+            <p>Dogs. Well animals in general, but I've always had a dog in my life and they have been great companions and friends. Currently my wife and I have two corgis and they are
+                a big part of our lives and bring a lot of happiness and fun to each day.</p>
+            <p>I Love music and enjoy playing instruments. I grew up playing the piano and later learned percussion and drums as I got into Junior and High school. 
+                I also play with a Scottish pipe band, Wassatch and District Pipe Band, playinng the marching snare drum. I enjoy percussion instruments for their rhythm and sound.</p>
+            <p>I've always been drawn to and had an interest in all things technology and computers. From a fairly young age I was tinkering, taking apart, and fixing electronics. 
+                Hence my pursuit of a Computer Science degree. I enjoy using technology for entertainment in the form of video games, and play Overwatch with the UVU Esports team.</p>
+        </section>
+        
+        <section id="class_schedule">
+            <h2>Class Schedule</h2>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+                <tr>
+                    <th>8:00</th>
+                    <td rowspan="2" style="background-color: #FF6961;">MATH 1210</td>
+                    <td rowspan="2" style="background-color: #FF6961;">MATH 1210</td>
+                    <td rowspan="2" style="background-color: #FF6961;">MATH 1210</td>
+                    <td rowspan="2" style="background-color: #FF6961;">MATH 1210</td> 
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>8:30</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>9:00</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>9:30</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>10:00</th>
+                    <td></td>
+                    <td rowspan="3" style="background-color: #66D7FD">CS 2550</td>
+                    <td></td>
+                    <td rowspan="3" style="background-color: #66D7FD">CS 2550</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>10:30</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <th>11:00</th>
+                    <td rowspan="2" style="background-color: #66FD6C;">COMM 1020</td>
+                    <td rowspan="2" style="background-color: #66FD6C;">COMM 1020</td>
+                    <td rowspan="2" style="background-color: #66FD6C;">COMM 1020</td>
+                    
+                </tr>
+                <tr>
+                    <th>11:30</th>
+                    <td></td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <th>12:00</th>
+                    <td rowspan="2" colspan="5" style="background-color: #E8BAFF;">Lunch</td>                    
+                </tr>
+                <tr>
+                    <th>12:30</th>                    
+                </tr>
+                <tr>
+                    <th>1:00</th>
+                    <td rowspan="11" style="background-color: #C6C6C6;">Work</td>
+                    <td rowspan="3" style="background-color: #F6FD66;">CS 2600</td>
+                    <td rowspan="11" style="background-color: #C6C6C6;">Work</td>
+                    <td rowspan="3" style="background-color: #F6FD66;">CS 2600</td>
+                    <td rowspan="11" style="background-color: #C6C6C6;">Work</td>
+                </tr>
+                <tr>
+                    <th>1:30</th>      
+                </tr>
+                <tr>
+                    <th>2:00</th>                  
+                </tr>
+                <tr>
+                    <th>2:30</th>
+                    <td rowspan="8" style="background-color: #C6C6C6;">Work</td>
+                    <td rowspan="8" style="background-color: #C6C6C6;">Work</td>
+                </tr>
+                <tr>
+                    <th>3:00</th>                    
+                </tr>
+                <tr>
+                    <th>3:30</th>                    
+                </tr>
+                <tr>
+                    <th>4:00</th>
+                </tr>
+                <tr>
+                    <th>4:30</th>
+                </tr>
+                <tr>
+                    <th>5:00</th>
+                </tr>
+                <tr>
+                    <th>5:30</th>
+                </tr>
+                <tr>
+                    <th>6:00</th>
+                </tr>
+            </table>
+        </section>
+
+    </body>
+
+</html>
